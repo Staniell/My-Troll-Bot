@@ -95,7 +95,7 @@ async def dm(ctx, *args):
 
 @bot.command(name="p")  # p for trolling as rythm
 async def p(ctx):
-    diss = ["Play it on youtube, fucker", "ayoko nga", "bahala ka dyan", "SorrY, Server is CurrentlY doWn"]
+    diss = ["Play it on youtube, fucker", "ERror 404", "Server is down", "SorrY, Server is CurrentlY doWn"]
     await ctx.send(f"{random.choice(diss)} {ctx.message.author.mention}")
 
 
